@@ -1,0 +1,148 @@
+.body {
+  line-height: 20px;
+
+}
+
+.wrapper {
+  background-color: rgba(116, 255, 14, 0.01);
+}
+
+header {
+  background-color: #18171f;
+  padding:          0 4rem;
+}
+
+.logo {
+  &-link {
+    color:       #999999;
+    font-size:   28px;
+    font-family: 'Merienda', cursive;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color:           #999999;
+}
+
+.list {
+  &-item {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:   14px;
+    a:hover {
+      color:            white;
+      background-color: black;
+    }
+  }
+}
+
+.carousel-content {
+  width: 80%;
+  &--text {
+    top:   35%;
+    left:  15%;
+    right: 15%;
+  }
+}
+
+h1 {
+  color:       #49afcd;
+  text-shadow: -1px -1px #000;
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  color:       #999999;
+  font-size:   24.5px;
+}
+
+p {
+  text-shadow: -1px -1px #fff;
+}
+
+.btn {
+  &-download {
+    max-width:        26%;
+    background-color: #49afcd;
+  }
+}
+
+.fill-line {
+  background-image:  url("/src/assets/img/divider-pattern.png");
+  background-repeat: repeat-x;
+  height:            4px;
+  width:             100%;
+}
+
+.content {
+  & h1 p {
+    text-align: center;
+  }
+
+  &-block {
+    max-width: 200px;
+  }
+}
+
+.img-crop {
+  width:  200px;
+  height: 200px;
+}
+
+.btn-link {
+  color: white !important;
+}
+
+.social-networks {
+  width:  35px;
+  &--fb {
+    background-image:  url("/src/assets/img/facebook-icon.png");
+    background-repeat: no-repeat;
+
+    &:hover{
+      cursor: pointer;
+      background-color: #005580;
+    }
+  }
+
+  &--twitter {
+    background-image:  url("/src/assets/img/twitter-icon.png");
+    background-repeat: no-repeat;
+
+
+    &:hover{
+      cursor: pointer;
+      background-color:  #00a6f8;
+    }
+  }
+
+  &--google {
+    background-image:  url("/src/assets/img/google-plus-icon.png");
+    background-repeat: no-repeat;
+
+    &:hover{
+      cursor: pointer;
+      background-color:  #df3c3f;
+    }
+  }
+}
+
+input {
+  border:        1px solid #cccccc;
+  border-radius: 4px;
+  padding:       4px;
+}
+
+footer {
+  background-color: #18171f;
+
+  P {
+    color:       #999999;
+    text-shadow: none;
+  }
+}
+
